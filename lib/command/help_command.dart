@@ -10,9 +10,10 @@ class HelpCommand extends Command {
   @override
   Future<void> execute(Message message, TeleDart teledart) async {
     await teledart.replyMessage(message, '''
-This bot is used to find data about the new virus: COVID-19.
-You can control me by sending these commands:
-
+Welcome to @Coronaviruskenyabot 🦠. This bot gives you up-to-date
+information on Kenya and worldwide spread of the Covid-19 disease.
+To get a quick overview of the current status, please use one of
+the commands
 *Data*
 /${TODAY_PER_COUNTRY} show data per country on current day
 /${TODAY_GLOBAL} show global data on current day

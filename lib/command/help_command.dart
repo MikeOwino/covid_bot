@@ -10,10 +10,8 @@ class HelpCommand extends Command {
   @override
   Future<void> execute(Message message, TeleDart teledart) async {
     await teledart.replyMessage(message, '''
-Welcome to @Coronaviruskenyabot 🦠. This bot gives you up-to-date
-information on Kenya and worldwide spread of the Covid-19 disease.
-To get a quick overview of the current status, please use one of
-the commands
+Welcome to @Coronaviruskenyabot 🦠. This bot gives you up-to-date information on Kenya and worldwide spread of the Covid-19 disease.
+To get a quick overview of the current status, please use one of the commands below
 *Data*
 /${TODAY_PER_COUNTRY} show data per country on current day
 /${TODAY_GLOBAL} show global data on current day
